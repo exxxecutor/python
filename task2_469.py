@@ -15,8 +15,63 @@
   и не делить слова.
 """
 
+
 def wiki_function():
-    # Тело функции
+    f = open('roguelike.txt', "r")
+
+    line = f.readline()
+    stroki = []
+    while line:
+        if line != "\n":
+            stroki.append(line)
+        line = f.readline()
+
+    for i in range(len(stroki)):
+        stroki[i] = stroki[i].translate(str.maketrans('', '', string.punctuation))  ##удаление всех знаков препинания
+
+    for i in range(len(stroki)):
+        changer = ''.join([i for i in stroki[i] if not i.isdigit()])  ##удаление всех цифр
+        stroki[i] = changer
+
+    all_strok = "".join(stroki)  ##все строки в одной
+
+    L = all_strok.split()  ##Разбитие на слова
+    Unique = set(L)
+    slovar = {}
+
+    for word in Unique:
+        slovar[word] = L.count(word)  ##количество вхождений
+
+    list_slovar = list(M.items())
+    list_slovar.sort(key=lambda i: i[1])
+    list_slovar.reverse()  ##обратный порядок отсортированных слов
+
+    j = 1
+    list_2 = []
+    for i in list_slovar:
+        if (j <= 10):
+            list_2.append(i[0])
+            print("{} place --- {} --- {} times".format(j, i[0], i[1]))
+            j += 1
+        else:
+            break
+
+    python = []
+    s = ''
+    for word in all_strok.split():
+        if word in list_2:
+            word = 'PYTHON'
+        if len(s + word) < 100:
+            s = s + word + " "
+        else:
+            python.append(s)
+            s = word + " "
+
+    with open('antimage again.txt', 'w') as f:
+        for line in python:
+            f.write(line + '\n')
+
+    f.close()
     return 1
 
 
