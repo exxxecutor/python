@@ -1,0 +1,6 @@
+StringName, code: 735, cafedra: IBetExists, 3 disciplines, 2 practices.
+Academic Math, in 3 semestr, on DontCareIfExists cafedra, by Random Guy. Control form: exam
+Academic Physics, in 3 semestr, on DontCareIfExists cafedra, by Another Guy. Control form: exam
+Academic Biology, in 3 semestr, on BiologyCafedra cafedra, by Some Guy. Control form: exam
+Practice Math, type: educational, semestr: 3, cafedra: DontCareIfExists, senior: Real Guy
+Practice Math, type: educational, semestr: 3, cafedra: DontCareIfExists, senior: Real Guy2
