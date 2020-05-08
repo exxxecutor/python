@@ -1,0 +1,13 @@
+CRE --- 08/05/2020 15:34:07 --- Создан объект Discipline по адресу <academic.Academic object at 0x0000025E6B937910>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Academic по адресу <academic.Academic object at 0x0000025E6B937910>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Discipline по адресу <academic.Academic object at 0x0000025E6B937430>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Academic по адресу <academic.Academic object at 0x0000025E6B937430>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Discipline по адресу <practice.Practice object at 0x0000025E6D855EB0>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Practice по адресу <practice.Practice object at 0x0000025E6D855EB0>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Discipline по адресу <practice.Practice object at 0x0000025E6D86FA60>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Practice по адресу <practice.Practice object at 0x0000025E6D86FA60>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Plan по адресу <__main__.Plan object at 0x0000025E6D86F700>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Discipline по адресу <academic.Academic object at 0x0000025E6D9C24C0>
+CRE --- 08/05/2020 15:34:07 --- Создан объект Academic по адресу <academic.Academic object at 0x0000025E6D9C24C0>
+INF --- 08/05/2020 15:34:07 --- Добавлена дисциплина объекта Plan по адресу <__main__.Plan object at 0x0000025E6D86F700>
+INF --- 08/05/2020 15:34:07 --- Записаны в файл данные объекта Plan по адресу <__main__.Plan object at 0x0000025E6D86F700>
